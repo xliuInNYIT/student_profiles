@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family:'Raleway', sans-serif;
+  font-family-replaced: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:'Raleway', sans-serif;
+  font-family-replaced: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+h1 {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.figureHead{
+  margin-left: 30px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+  margin-top:15px;
+  border-radius: 50%;
+  border: 1px solid rgb(175, 175, 175);
+  width:150px;height:150px;
+}
+
+.row {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.extendButton{
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: rgb(175, 175, 175); /* old IE */
+  background-color: rgb(175, 175, 175); /* Modern Browsers */
+}
+
+.addTag {
+  font-size: 15px;
+}
+
+input {
+  width: 500px;
+  height: 30px;
+  border: none;
+  outline:none;
+  font-size:24px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;800&display=swap');
